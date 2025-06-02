@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echoes of the Temple</title>
+  <script defer src="game.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet"> -->
+  <style>
+    canvas { image-rendering: pixelated; }
+    /* body { background-color: #000; color: #fff; padding: 2em; max-width: 640px; } */
+    h1 { font-family: 'Courier New', Courier, monospace; }
+    p { font-family: 'Courier New', Courier, monospace; padding: 0.5em 0; }
+  </style>
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center p-6">
+
+    <div class="mt-5 p-6">
+        <h1>“Echoes of the Temple”</h1>
+        <p>You awaken to the scent of stone and ash. The air hums with an ancient energy.</p>
+        <p>Faint glyphs pulse on the walls, flickering like memories.</p>
+        <p>A whisper in your mind: "Gather what was lost... and the path will reveal itself."</p>
+        <p>There is no exit. Only forward.</p>
+    </div>
+
+
+  <h1 class="text-3xl font-bold mb-4">Echoes of the Temple</h1>
+  <canvas id="gameCanvas" width="320" height="320" class="border border-gray-600"></canvas>
+  <div id="messageBox" class="mt-4 p-2 w-[320px] text-center text-sm text-gray-300"></div>
+
+
+
+</body>
+</html>
